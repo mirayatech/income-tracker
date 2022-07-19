@@ -1,0 +1,63 @@
+.form-inner {
+  display: flex;
+  padding: 30px;
+  border-radius: 10px;
+  background: #fff;
+  align-items: center;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.1);
+}
+
+.form-inner input {
+  color: #7e7e7e;
+  font-weight: 500;
+  width: 100%;
+  font-size: 1rem;
+  outline: none;
+  padding: 8px;
+  border: 2px solid #e0e0e0;
+}
+
+.form-inner input::placeholder {
+  color: #7e7e7e;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+.form-inner input:first-child {
+  max-width: 250px;
+  border-right: 0;
+  border-radius: 5px 0 0 5px;
+}
+
+.form-inner input:nth-child(2) {
+  max-width: 150px;
+  border-left: 0;
+  border-right: 0;
+}
+
+.form-inner input:nth-child(3) {
+  max-width: 150px;
+
+  padding: 7px;
+  border-left: 0;
+  border-right: 0;
+}
+
+.form-inner input:last-child {
+  max-width: 150px;
+  border-left: 0;
+
+  font-weight: 500;
+  color: #7e7e7e;
+  background: #e0e0e0;
+  border-radius: 0 5px 5px 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}

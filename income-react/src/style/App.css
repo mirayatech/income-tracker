@@ -2,14 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "poppins", sans-serif;
 }
+
 body {
-  background: #865cff;
+  color: rgb(43, 43, 43);
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 50vh;
+  background: #865cff;
 }
 
 @import "./Header.css";

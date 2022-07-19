@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  padding: 30px;
+  border-radius: 10px;
+  background: #fff;
+  align-items: center;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: calc(28 / 16 * 1rem);
+}
+
+.total-income {
+  font-weight: 500;
+  font-size: calc(30 / 16 * 1rem);
+}
+
+.total-income .dollar {
+  font-weight: 500;
+  font-size: calc(29 / 16 * 1rem);
+}

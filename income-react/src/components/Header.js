@@ -8,7 +8,7 @@ function Header({ totalIncome }) {
       <h1>Income Tracker</h1>
       <div className="total-income">
         {" "}
-        <FontAwesomeIcon icon={faDollarSign} />
+        <FontAwesomeIcon icon={faDollarSign} className="dollar" />
         {totalIncome}
       </div>
     </header>
