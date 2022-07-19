@@ -1,7 +1,16 @@
 import React, { useState, useEffect } from "react";
 
 function App() {
-  return <div>App</div>;
+  // Array of incomes
+  const [income, setIncome] = useState([]);
+  // Total income
+  const [totalIncome, setTotalIncome] = useState(0);
+
+  return (
+    <div className="App">
+      <Header totalIncome={totalIncome} />
+    </div>
+  );
 }
 
 export default App;
