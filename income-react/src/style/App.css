@@ -4,3 +4,13 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body {
+  background: #865cff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+@import "./Header.css";
+@import "./IncomeForm";
