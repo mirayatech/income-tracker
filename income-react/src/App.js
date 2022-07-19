@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Header from "./components/Header";
 import IncomeForm from "./components/IncomeForm";
+import IncomeList from "./components/IncomeList";
 
 function App() {
   // Array of incomes
@@ -20,6 +21,7 @@ function App() {
     <div className="App">
       <Header totalIncome={totalIncome} />
       <IncomeForm income={income} setIncome={setIncome} />
+      <IncomeList income={income} setIncome={setIncome} />
     </div>
   );
 }
