@@ -20,7 +20,8 @@ function IncomeItem({ income, index, removeIncome }) {
       <div className="desc">{income.desc}</div>
       <div className="price">
         {" "}
-        <FontAwesomeIcon icon={faDollarSign} /> {income.price}
+        <FontAwesomeIcon icon={faDollarSign} className="dollar" />{" "}
+        {income.price}
       </div>
       <div className="date">{day + "/" + month + "/" + year}</div>
     </div>

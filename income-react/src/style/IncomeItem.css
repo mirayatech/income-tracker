@@ -1,0 +1,49 @@
+.income-list .income-item {
+  position: relative;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: flex;
+  transition: all ease 0.4s;
+  padding-left: 60px;
+  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.1);
+}
+
+.income-list .income-item .remove-item {
+  position: absolute;
+  width: 0;
+  top: 0;
+  left: 0;
+  border: none;
+  bottom: 0;
+  overflow: hidden;
+  font-size: 1rem;
+  color: #7e7e7e;
+  background: #e0e0e0;
+  cursor: pointer;
+  display: block;
+  border-radius: 8px 0 0 8px;
+  transition: 0.2s;
+}
+
+.income-list .income-item:hover .remove-item {
+  width: 50px;
+  border: 0;
+}
+
+.income-list .income-item .desc {
+  flex: 1 1 100%;
+}
+
+.income-list .income-item .price .dollar {
+  font-size: 0.9rem;
+}
+
+.income-list .income-item .price,
+.income-list .income-item .date {
+  min-width: 120px;
+}
+.income-list .income-item:hover {
+  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.2);
+}

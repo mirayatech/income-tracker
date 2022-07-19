@@ -16,3 +16,4 @@ body {
 
 @import "./Header.css";
 @import "./IncomeForm";
+@import "./IncomeItem";
