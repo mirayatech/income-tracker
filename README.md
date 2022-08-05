@@ -6,5 +6,3 @@ An income tracker built with pure react.js 💰
 
 
 ## How it looks 👀
-
-<strong>Live Demo:  <br> <br> 
