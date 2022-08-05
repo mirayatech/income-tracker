@@ -7,4 +7,4 @@ An income tracker built with pure react.js 💰
 
 ## How it looks 👀
 
-<strong>Live Demo: </strong> https://purple-incometracker.netlify.app/ <br> <br> 
+<strong>Live Demo:  <br> <br> 
